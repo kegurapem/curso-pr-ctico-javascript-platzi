@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+    /* font-family: 'Inter', sans-serif; */
+}
+header {
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+}
+.main-container {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+
+    width: 100%;
+    height: 100vh;
+}
+.data-container {
+    width: 80%;
+    height: 80vh;
+    /* border: 1px solid; */
+}
+.data-container section{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.data-container .triangulo .form{
+    display: flex;
+    flex-direction: column;
+}
+.data-container section h2{
+    /* border: 1px solid; */
+    margin-bottom: 8px;
+}
