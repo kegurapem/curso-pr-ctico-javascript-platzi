@@ -16,7 +16,7 @@
         <div class="data-container">
             <section class="cuadrado">
                 <h2 class="cuadrado--title">Calcula el área y perímetro de un cuadrado</h2>
-                <form action="">
+                <form class="form" action="">
                     <label for="InputCuadrado">Escribe cuánto mide cada lado del cuadrado</label>
                     <input id="InputCuadrado" type="number" name="" id="">
                     <button type="button" onclick="calcularPerimetroCuadrado()">Calcular el perímetro</button>
@@ -44,11 +44,21 @@
             </section>
             <section class="circulo">
                 <h2>Calcula el área y perímetro de un círculo</h2>
-                <form action="">
+                <form class="form" action="">
                     <label for="InputCuadrado">Escribe cuánto mide cada lado del cuadrado</label>
                     <input id="InputCuadrado" type="number" name="" id="">
                     <button type="button" onclick="calcularPerimetroCuadrado()">Calcular el perímetro</button>
                     <button type="button" onclick="calcularAreaCuadrado()"> Calcular el área</button>
+                </form>
+            </section>
+            <section class="triangulo-isosceles">
+                <h2>Calcula la altura de un triángulo isoscélees</h2>
+                <form class="form" action="">
+                    <label for="InputLadoR">Lado que se repite</label>
+                    <input id="InputLadoR" type="number" name="" id="">
+                    <label for="InputBaseIso">Base</label>
+                    <input id="InputBaseIso" type="number" name="" id="">
+                    <button type="button" onclick="calcularAlturaIsosceles()">Calcular altura</button>
                 </form>
             </section>
             <script src="./figuras.js"></script>

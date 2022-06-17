@@ -33,9 +33,17 @@ header {
     margin-top: 20px;
 }
 
-.data-container .triangulo .form{
+.data-container .form{
     display: flex;
     flex-direction: column;
+}
+.data-container .form input{
+    width: 150px;
+    margin-bottom: 8px;
+}
+.data-container .form button{
+    width: 150px;
+    margin-bottom: 4px;
 }
 .data-container section h2{
     /* border: 1px solid; */

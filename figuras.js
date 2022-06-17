@@ -19,6 +19,16 @@ function perimetroTriangulo(lado1, lado2, base) {
 function areaTriangulo(base, altura) {
     return (base * altura) / 2;
 }
+
+// Codigo Triángulo Isósceles
+function perimetroTriangulo(lado, base) {
+    operacion_interna = (lado * lado) - (base * base/4)
+    return Math.sqrt(operacion_interna);
+}
+
+function areaTriangulo(base, altura) {
+    return (base * altura) / 2;
+}
 console.groupEnd();
 
 // Codigo Circulo
@@ -88,3 +98,14 @@ function calcularAreaTriangulo() {
     alert(area);
 }
 //Círculo
+//Triángulo isóceles
+function calcularAlturaIsosceles() {
+    const inputLadoR = document.getElementById("InputLadoR");
+    const valueLadoR = parseInt(inputLadoR.value);
+
+    const inputBaseIso = document.getElementById("InputBaseIso");
+    const valueBaseIso = parseInt(inputBaseIso.value);
+
+    const altura = perimetroTriangulo(valueLadoR, valueBaseIso);
+    alert(altura);
+}
