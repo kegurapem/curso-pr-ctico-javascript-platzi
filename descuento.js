@@ -7,13 +7,8 @@ function calcularPrecioConDescuento(precio, descuento){
 
     return precioConDescuento;
 }
-
+aa
 
 
 // console.log("El precio original es: " + precioOriginal)
-// console.log({
-//     precioOriginal,
-//     descuento,
-//     porcentajePrecioConDescuento,
-//     precioConDescuento,
-// });
+// git p[]
