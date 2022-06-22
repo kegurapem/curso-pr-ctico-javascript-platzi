@@ -5,9 +5,6 @@ function calcularPrecioConDescuento(precio, descuento){
     return precioConDescuento;
 }
 
-
-
-
 function onClickButtonPriceDiscount() {
     const coupons = [
         {
@@ -24,12 +21,14 @@ function onClickButtonPriceDiscount() {
         },
     ];
 
+    // Capturo los valores ingresados en los input
     const inputPrice = document.getElementById("InputPrice");
     const priceValue = inputPrice.value;
 
     const inputDiscount = document.getElementById("InputDiscount");
     const couponValue = inputDiscount.value;
 
+    // 
     const isCouponValueValid = function (coupon) {
         return coupon.name === couponValue;
     };
