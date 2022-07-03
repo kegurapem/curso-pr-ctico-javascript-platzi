@@ -84,21 +84,22 @@ const MAYORIA_DE_EDAD2 = 18;
 // }
 
 //* Esta es una arrow function
-var esMayorDeEdad2 = (persona) => {
-    return persona.edad >= MAYORIA_DE_EDAD2;
-}
+// var esMayorDeEdad2 = (persona) => {
+//     return persona.edad >= MAYORIA_DE_EDAD2;
+// }
 
-const esMayorDeEdad2 = function (persona) {
-    return persona.edad >= MAYORIA_DE_EDAD2;
-}
+// const esMayorDeEdad2 = function (persona) {
+//     return persona.edad >= MAYORIA_DE_EDAD2;
+// }
 
-const esMayorDeEdad2 = persona => persona.edad >= MAYORIA_DE_EDAD2;
+// const esMayorDeEdad2 = persona => persona.edad >= MAYORIA_DE_EDAD2;
 
 
-function imprimirSiEsMayorDeEdad2(persona) {
-    if (esMayorDeEdad2(persona)) {
-        console.log(`${persona.name} tiene ${persona.edad} y es mayor de edad`)
-    } else {
-        console.log(`${persona.name} tiene ${persona.edad} y es menor de edad`)
-    }
-}
+// function imprimirSiEsMayorDeEdad2(persona) {
+//     if (esMayorDeEdad2(persona)) {
+//         console.log(`${persona.name} tiene ${persona.edad} y es mayor de edad`)
+//     } else {
+//         console.log(`${persona.name} tiene ${persona.edad} y es menor de edad`)
+//     }
+// }
+
