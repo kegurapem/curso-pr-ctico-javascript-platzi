@@ -1,4 +1,4 @@
-# curso-pr-ctico-javascript-platzi
+# curso-practico-javascript-platzi
 
 ## Taller #1:  Figuras geométricas
 
