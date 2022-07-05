@@ -29,11 +29,13 @@ var marvin = {
 
 var personas = [kevin, kumi, kegura, marvin];
 
+//output TRUE or FALSE
 const esAlta = (persona) => {
     return persona.altura > 1.7;
-} //output TRUE or FALSE
+}
 
 var personasAltas = personas.filter(esAlta)
 
 console.log(personasAltas);
 
+ 
