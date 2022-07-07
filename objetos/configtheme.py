@@ -45,3 +45,43 @@
         ]
     }
 }
+
+
+
+
+# parte2
+"workbench.colorCustomizations": {
+        "[Panda Syntax]": {
+            "editor.background": "#232430"
+        }
+    },
+    "editor.tokenColorCustomizations": {
+        // "strings": "#FF0000"
+        // "functions": "#6AFCFE",
+        "functions": "#00e5ff",
+        "variables": "#c2b8b8",
+        "comments": "#85c084",
+        "textMateRules": [
+            {
+                "scope": "keyword.operator",
+                "settings": {
+                    "foreground": "#FFAE00",
+                    // "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "keyword.control",
+                "settings": {
+                    "foreground": "#FFAE00",
+                    // "fontStyle": "bold"
+                }
+            },
+            {
+                "scope" : "variable.parameter",
+                "settings": {
+                    "foreground": "#ffffff",
+                    // "fontStyle": "bold"
+                }
+            },
+        ]
+    }
