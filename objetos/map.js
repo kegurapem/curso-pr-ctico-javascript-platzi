@@ -8,7 +8,7 @@ var kevin = {
     apellido: 'gutierrez',
     edad: 29,
     peso: 93,
-    altura: 1.74
+    altura: 1.74,
 }
 var kumi = {
     nombre: 'kumi',
@@ -61,3 +61,23 @@ var personas = [kevin, kumi, kegura, marvin];
 var personasCentimetros = personas.map(pasarAlturaACentrimetros)
 
 console.table(personasCentimetros);
+
+//----------------MULTIPLICAR X 2 LOS ELEMENTOS DE UN ARRAY-----------------------------------
+
+const numeros = [1, 2, 3, 4, 5];
+
+const lista_numeros_multiplacados = numeros.map(elemento => elemento * 2);
+
+console.log(numeros)
+console.log(lista_numeros_multiplacados);
+
+//----------------CREAR UNA NUEVA LISTA CON LAS EDADES EXTRAÍDAS DE UN ARRAY DE OBAJETOS-----------------------
+const mascotas = [
+    {nombre: 'chuto', edad: 6, tipo: 'perro'},
+    {nombre: 'peluchin', edad: 3, tipo: 'perro'},
+    {nombre: 'comotu', edad: 5, tipo: 'perro'},
+    {nombre: 'mimikatz', edad: 2, tipo: 'gato'},
+]
+
+const edadMascotas = mascotas.map(x => x.edad);
+console.log(edadMascotas);
