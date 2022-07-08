@@ -67,3 +67,39 @@ console.log(personasBajas2)
  //EXPLICACIÓN SOBRE FILTER
 
 // filter() devuelve un nuevo array
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var primer_numero = 5;
+
+
+
+
+
+
+
+

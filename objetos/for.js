@@ -55,3 +55,6 @@ while (kevin.peso > META) {
 }
 
 console.log(`Pasaron ${dias} días hasta que ${kevin.nombre} logró su meta y actualmente pesa ${kevin.peso} kg.`);
+
+
+
