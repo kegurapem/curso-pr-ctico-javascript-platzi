@@ -40,7 +40,40 @@ helloPromise()
     .catch(error => console.log(error));
 
 
-//CLASES
+//CLASES ec6
 class calculator {
-    constructir() {}
+    constructor() {
+        this.valueA = 0;
+        this.valueB = 0;
+    }
+
+    sum(valueA, valueB) {
+        this.valueA = valueA;
+        this.valueB = valueB;
+        return this.valueA + this.valueB;
+    }
 }
+
+const calc = new calculator();
+console.log(calc.sum(5,8));
+
+
+// importar un modulo
+// import {hello} from './module';
+// hello();
+
+// GENERATORS: es una función especial que retorna una serie de valores, según el algoritmo definido.
+
+function* helloWorld() {
+    if (true) {
+        yield 'Hello, ';
+    }
+    if (true) {
+        yield 'World';
+    }
+}
+
+const generatorHello = helloWorld();
+console.log(generatorHello.next().value);
+console.log(generatorHello.next().value);
+console.log(generatorHello.next().value);
