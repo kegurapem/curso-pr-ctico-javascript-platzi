@@ -38,3 +38,9 @@ helloPromise()
     .then(response => console.log(response))
     .then(() => console.log('hola'))
     .catch(error => console.log(error));
+
+
+//CLASES
+class calculator {
+    constructir() {}
+}
