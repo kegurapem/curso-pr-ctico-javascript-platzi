@@ -49,3 +49,11 @@ function capacidadDeEndeudamiento2() {
 }
 
 
+const array1 = [1,2,3,4,5,6,7,8,9];
+
+const mitad = parseInt(array1.length / 2) + 1;
+
+array1.push(20);
+
+
+console.log(array1);
