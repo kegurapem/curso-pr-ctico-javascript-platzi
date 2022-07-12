@@ -23,9 +23,9 @@ Promise.allSettled([promise1, promise2, promise3])
 // console.log(globalThis);
 
 
-//Nullish coalescing operator (??) - OPERADOR LÓGICO NULO.
-// const foo = null ?? 'default string';
-// console.log(foo);
+// Nullish coalescing operator (??) - OPERADOR LÓGICO NULO.
+const foo = null ?? 'default string';
+console.log(foo);
 
 //Optional chaining (?.)
 const user = {};
